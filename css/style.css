@@ -17,7 +17,7 @@ span {
 }
 h2 {
   padding: 0;
-  /* relative units in css (em, rem) */
+  
   font-size: 2rem;
 }
 .main-photo {
