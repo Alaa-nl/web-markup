@@ -2,4 +2,4 @@ Student name: Alaa Aldrobe
 Student number: 690027
 Student class: IT1B
 GitHub Repository: https://github.com/Alaa-nl/web-markup.git
-GitHub Pages URL: ...
+GitHub Pages URL: https://alaa-nl.github.io/web-markup/
