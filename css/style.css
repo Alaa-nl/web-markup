@@ -8,7 +8,7 @@ header {
   z-index: 9999;
 }
 p,
-span {
+section {
   font-family: "Arial-Regular", sans-serif;
   font-size: 22px;
   line-height: 186%;
@@ -35,8 +35,13 @@ h2 {
   text-decoration: none;
   padding-right: 30px;
 }
-.contact-link.selected {
-      text-decoration: underline;
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.contact-link:active {
+  text-decoration: underline;
 }
 
 .bar-title {
@@ -66,13 +71,6 @@ h2 {
   height: 500px;
 }
 
-.adress {
-  font-family: "Arial-Bold", sans-serif;
-  font-size: 22px;
-  line-height: 186%;
-  font-weight: 700;
-  text-decoration: underline;
-}
 .logo {
   padding-left: 30px;
 }
@@ -171,6 +169,7 @@ textarea {
   padding: 10px;
   cursor: pointer;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 /* begin footer style */
 .footer {
@@ -243,6 +242,20 @@ footer .contactfooter {
   border-style: solid;
   border-color: #fffafa;
   position: absolute;
+  display: block;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  width: 100%;
+  text-align: center;
+  margin-top: 230px;
+  font-size: 18px;
+  position: relative;
 }
 
 #rectangle18,
@@ -547,3 +560,16 @@ p {
   }
 }
  
+/* Media query for smartphones */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        display: block;
+    }
+    .header-items a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
